@@ -11,7 +11,7 @@ attribution:'© OpenStreetMap'
 
 // Load one KML
 
-const layer = omnivore.kml('kml/SE-2AGT_Circ-AL01014045.kml');
+const layer = omnivore.kml('kml/Norte/SE-2AGT_Circ-AL01014045.kml');
 
 layer.on('ready',function(){
 
