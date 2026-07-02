@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
 
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>ETO Circuit Viewer</title>
 
@@ -21,10 +22,20 @@ href="style.css">
 
 <div id="map"></div>
 
+<div id="ui-panel">
+    <div id="search-wrap">
+        <input id="search-box" type="text" placeholder="Buscar equipamento (ID)..." autocomplete="off">
+        <div id="search-results"></div>
+    </div>
+    <div id="legend"></div>
+</div>
+
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  
+
 <script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
-  
+
+<script src="config.js"></script>
+<script src="markers.js"></script>
 <script src="script.js"></script>
 
 </body>
