@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<open>1</open>
+<Style id="styleDaimonBarra0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonBarra1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonBarra"><Pair><key>normal</key><styleUrl>#styleDaimonBarra0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonBarra1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonBarraBT0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonBarraBT1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonBarraBT"><Pair><key>normal</key><styleUrl>#styleDaimonBarraBT0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonBarraBT1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonCapacitor0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonCapacitor1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonCapacitor"><Pair><key>normal</key><styleUrl>#styleDaimonCapacitor0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonCapacitor1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonCapacitorBT0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonCapacitorBT1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonCapacitorBT"><Pair><key>normal</key><styleUrl>#styleDaimonCapacitorBT0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonCapacitorBT1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonCapacitorSerie0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonCapacitorSerie1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/purple-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonCapacitorSerie"><Pair><key>normal</key><styleUrl>#styleDaimonCapacitorSerie0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonCapacitorSerie1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonChave0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonChave1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff0000ff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonChave"><Pair><key>normal</key><styleUrl>#styleDaimonChave0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonChave1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonEP0"><IconStyle><scale>0.80</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>0.80</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonEP1"><IconStyle><scale>0.80</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>0.80</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonEP"><Pair><key>normal</key><styleUrl>#styleDaimonEP0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonEP1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonET0"><IconStyle><scale>0.80</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffff00</color><colorMode>normal</colorMode><scale>0.80</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonET1"><IconStyle><scale>0.80</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffff00</color><colorMode>normal</colorMode><scale>0.80</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/blu-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonET"><Pair><key>normal</key><styleUrl>#styleDaimonET0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonET1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonGerador0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonGerador1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonGerador"><Pair><key>normal</key><styleUrl>#styleDaimonGerador0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonGerador1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonReator0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonReator1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ffff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-square.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonReator"><Pair><key>normal</key><styleUrl>#styleDaimonReator0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonReator1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonRegulador0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00a5ff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonRegulador1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00a5ff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/orange-diamond.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonRegulador"><Pair><key>normal</key><styleUrl>#styleDaimonRegulador0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonRegulador1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonTransformador0"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffff00ff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonTransformador1"><IconStyle><scale>1.00</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffff00ff</color><colorMode>normal</colorMode><scale>1.00</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/pink-circle.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonTransformador"><Pair><key>normal</key><styleUrl>#styleDaimonTransformador0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonTransformador1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonTrecho"><LineStyle><color>ffffffff</color><width>1.00</width></LineStyle></Style>
+<Style id="styleDaimonTrechoBT"><LineStyle><color>ffff0000</color><width>1.00</width></LineStyle></Style>
+<Style id="styleDaimonChaveNA0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ff00</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonChaveNA1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ff00</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonChaveNA"><Pair><key>normal</key><styleUrl>#styleDaimonChaveNA0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonChaveNA1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonChaveSoco0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ff00</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonChaveSoco1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ff00ff00</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonChaveSoco"><Pair><key>normal</key><styleUrl>#styleDaimonChaveSoco0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonChaveSoco1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonSE0"><IconStyle><scale>1.20</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.20</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonSE1"><IconStyle><scale>1.20</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>1.20</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonSE"><Pair><key>normal</key><styleUrl>#styleDaimonSE0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonSE1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonDiag_BOM"><LineStyle><color>ff80ff80</color><width>3.20</width></LineStyle></Style>
+<Style id="styleDaimonDiag_REGULAR"><LineStyle><color>ff00ffff</color><width>3.20</width></LineStyle></Style>
+<Style id="styleDaimonDiag_RUIM"><LineStyle><color>ff0000ff</color><width>3.20</width></LineStyle></Style>
+<Style id="styleDaimonDiag_INDEF"><LineStyle><color>ff808080</color><width>3.20</width></LineStyle></Style>
+<Style id="styleDaimonDiag_BARRA_BOM0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonDiag_BARRA_BOM1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/grn-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonDiag_BARRA_BOM"><Pair><key>normal</key><styleUrl>#styleDaimonDiag_BARRA_BOM0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonDiag_BARRA_BOM1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonDiag_BARRA_REGULAR0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonDiag_BARRA_REGULAR1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonDiag_BARRA_REGULAR"><Pair><key>normal</key><styleUrl>#styleDaimonDiag_BARRA_REGULAR0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonDiag_BARRA_REGULAR1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonDiag_BARRA_RUIM0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonDiag_BARRA_RUIM1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/red-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonDiag_BARRA_RUIM"><Pair><key>normal</key><styleUrl>#styleDaimonDiag_BARRA_RUIM0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonDiag_BARRA_RUIM1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonDiag_BARRA_INDEF0"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<Style id="styleDaimonDiag_BARRA_INDEF1"><IconStyle><scale>0.60</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon><hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/></IconStyle><LabelStyle><color>ffffffff</color><colorMode>normal</colorMode><scale>0.60</scale></LabelStyle><ListStyle><ItemIcon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></ItemIcon></ListStyle></Style>
+<StyleMap id="mapDaimonDiag_BARRA_INDEF"><Pair><key>normal</key><styleUrl>#styleDaimonDiag_BARRA_INDEF0</styleUrl></Pair><Pair><key>highlight</key><styleUrl>#styleDaimonDiag_BARRA_INDEF1</styleUrl></Pair></StyleMap>
+<Style id="styleDaimonMONO"><LineStyle><color>ff0000ff</color><width>2.00</width></LineStyle></Style>
+<Style id="styleDaimonBI"><LineStyle><color>ff00ff00</color><width>2.00</width></LineStyle></Style>
+<Style id="styleDaimonTRI"><LineStyle><color>ffff0000</color><width>2.00</width></LineStyle></Style>
+<Style id="styleDaimonMONO_BT"><LineStyle><color>ffffff00</color><width>1.00</width></LineStyle></Style>
+<Style id="styleDaimonBI_BT"><LineStyle><color>ffff00ff</color><width>1.00</width></LineStyle></Style>
+<Style id="styleDaimonTRI_BT"><LineStyle><color>ff00ffff</color><width>1.00</width></LineStyle></Style>
+<Style id="styleDaimonCIRCUITO88TRECHO"><LineStyle><color>ff008080</color><width>2.00</width></LineStyle></Style>
+<Style id="styleDaimonFolderCirc_AL08010004"><ListStyle><bgColor>ff008080</bgColor></ListStyle></Style>
+<Folder>
+<name>Circ_AL08010004</name>
+<styleUrl>#styleDaimonFolderCirc_AL08010004</styleUrl><Folder>
+<name>Capacitor</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>CapacitorSerie</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>Chave</name>
+<visibility>0</visibility>
+<Placemark><name>DJ_AL08010004_FICT</name><visibility>0</visibility><LookAt><longitude>-48.237809</longitude><latitude>-7.195251</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.237809,-7.195251,0</coordinates></Point></Placemark>
+<Placemark><name>8855208004</name><visibility>0</visibility><LookAt><longitude>-48.238102</longitude><latitude>-7.195607</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.238102,-7.195607,0</coordinates></Point></Placemark>
+<Placemark><name>8855209004</name><visibility>0</visibility><LookAt><longitude>-48.237616</longitude><latitude>-7.196706</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.237616,-7.196706,0</coordinates></Point></Placemark>
+<Placemark><name>8855193004</name><visibility>0</visibility><LookAt><longitude>-48.241639</longitude><latitude>-7.208571</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.241639,-7.208571,0</coordinates></Point></Placemark>
+<Placemark><name>8852814004</name><visibility>0</visibility><LookAt><longitude>-48.238484</longitude><latitude>-7.222584</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.238484,-7.222584,0</coordinates></Point></Placemark>
+<Placemark><name>8854464004</name><visibility>0</visibility><LookAt><longitude>-48.221247</longitude><latitude>-7.216578</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.221247,-7.216578,0</coordinates></Point></Placemark>
+<Placemark><name>8852812004</name><visibility>0</visibility><LookAt><longitude>-48.220987</longitude><latitude>-7.216443</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.220987,-7.216443,0</coordinates></Point></Placemark>
+<Placemark><name>8654451004</name><visibility>0</visibility><LookAt><longitude>-48.221033</longitude><latitude>-7.214975</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonChave</styleUrl><Point><coordinates>-48.221033,-7.214975,0</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>EP</name>
+<visibility>0</visibility>
+<Placemark><name>5654451004</name><visibility>0</visibility><LookAt><longitude>-48.220990</longitude><latitude>-7.214975</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonEP</styleUrl><Point><coordinates>-48.220990,-7.214975,0</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>ET</name>
+<visibility>0</visibility>
+<Placemark><name>PA54451004</name><visibility>0</visibility><LookAt><longitude>-48.220918</longitude><latitude>-7.214975</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonET</styleUrl><Point><coordinates>-48.220918,-7.214975,0</coordinates></Point></Placemark>
+<Placemark><name>PA54452004</name><visibility>0</visibility><LookAt><longitude>-48.220827</longitude><latitude>-7.214977</latitude><altitude>1200.0</altitude><altitudeMode>absolute</altitudeMode></LookAt><styleUrl>#mapDaimonET</styleUrl><Point><coordinates>-48.220827,-7.214977,0</coordinates></Point></Placemark>
+</Folder>
+<Folder>
+<name>Gerador</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>Reator</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>Regulador</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>Transformador</name>
+<visibility>0</visibility>
+</Folder>
+<Folder>
+<name>Trecho</name>
+<Placemark><name>48647806</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237862,-7.195337,0 -48.238103,-7.195596,0</coordinates></LineString></Placemark>
+<Placemark><name>48647998</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237462,-7.196399,0 -48.237470,-7.196419,0</coordinates></LineString></Placemark>
+<Placemark><name>48647892</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237470,-7.196419,0 -48.237610,-7.196694,0</coordinates></LineString></Placemark>
+<Placemark><name>48647866</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237546,-7.196331,0 -48.237462,-7.196399,0</coordinates></LineString></Placemark>
+<Placemark><name>48648024</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237563,-7.196307,0 -48.237546,-7.196331,0</coordinates></LineString></Placemark>
+<Placemark><name>48647855</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237847,-7.196143,0 -48.237563,-7.196307,0</coordinates></LineString></Placemark>
+<Placemark><name>48647833</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238129,-7.195974,0 -48.237847,-7.196143,0</coordinates></LineString></Placemark>
+<Placemark><name>48648032</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238152,-7.195952,0 -48.238129,-7.195974,0</coordinates></LineString></Placemark>
+<Placemark><name>48647845</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238104,-7.195839,0 -48.238152,-7.195952,0</coordinates></LineString></Placemark>
+<Placemark><name>48648043</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238076,-7.195811,0 -48.238104,-7.195839,0</coordinates></LineString></Placemark>
+<Placemark><name>48647823</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238101,-7.195618,0 -48.238076,-7.195811,0</coordinates></LineString></Placemark>
+<Placemark><name>47080135</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239980,-7.199751,0 -48.239989,-7.199771,0</coordinates></LineString></Placemark>
+<Placemark><name>48648184</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239878,-7.199530,0 -48.239980,-7.199751,0</coordinates></LineString></Placemark>
+<Placemark><name>48648235</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239989,-7.199771,0 -48.240124,-7.200054,0</coordinates></LineString></Placemark>
+<Placemark><name>48648198</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239773,-7.199305,0 -48.239878,-7.199530,0</coordinates></LineString></Placemark>
+<Placemark><name>48648236</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240124,-7.200054,0 -48.240235,-7.200292,0</coordinates></LineString></Placemark>
+<Placemark><name>48648197</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239603,-7.198941,0 -48.239773,-7.199305,0</coordinates></LineString></Placemark>
+<Placemark><name>48648237</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240235,-7.200292,0 -48.240399,-7.200642,0</coordinates></LineString></Placemark>
+<Placemark><name>48648124</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239467,-7.198651,0 -48.239603,-7.198941,0</coordinates></LineString></Placemark>
+<Placemark><name>48648238</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240399,-7.200642,0 -48.240531,-7.200920,0</coordinates></LineString></Placemark>
+<Placemark><name>48648142</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239334,-7.198366,0 -48.239467,-7.198651,0</coordinates></LineString></Placemark>
+<Placemark><name>48648239</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240531,-7.200920,0 -48.240641,-7.201161,0</coordinates></LineString></Placemark>
+<Placemark><name>48648141</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239178,-7.198034,0 -48.239334,-7.198366,0</coordinates></LineString></Placemark>
+<Placemark><name>48648240</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240641,-7.201161,0 -48.240756,-7.201405,0</coordinates></LineString></Placemark>
+<Placemark><name>48648140</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239043,-7.197753,0 -48.239178,-7.198034,0</coordinates></LineString></Placemark>
+<Placemark><name>48650496</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240756,-7.201405,0 -48.240766,-7.201427,0</coordinates></LineString></Placemark>
+<Placemark><name>48649467</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239029,-7.197763,0 -48.239043,-7.197753,0</coordinates></LineString></Placemark>
+<Placemark><name>48648139</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239043,-7.197753,0 -48.238901,-7.197454,0</coordinates></LineString></Placemark>
+<Placemark><name>48648218</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240766,-7.201427,0 -48.240884,-7.201681,0</coordinates></LineString></Placemark>
+<Placemark><name>48648802</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238878,-7.197837,0 -48.239029,-7.197763,0</coordinates></LineString></Placemark>
+<Placemark><name>48648347</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240884,-7.201681,0 -48.241028,-7.201987,0</coordinates></LineString></Placemark>
+<Placemark><name>48648779</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238646,-7.197944,0 -48.238878,-7.197837,0</coordinates></LineString></Placemark>
+<Placemark><name>48648348</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241028,-7.201987,0 -48.241149,-7.202245,0</coordinates></LineString></Placemark>
+<Placemark><name>48648792</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238415,-7.198058,0 -48.238646,-7.197944,0</coordinates></LineString></Placemark>
+<Placemark><name>48648349</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241149,-7.202245,0 -48.241300,-7.202568,0</coordinates></LineString></Placemark>
+<Placemark><name>48650350</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238396,-7.198076,0 -48.238415,-7.198058,0</coordinates></LineString></Placemark>
+<Placemark><name>48648333</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241300,-7.202568,0 -48.241448,-7.202894,0</coordinates></LineString></Placemark>
+<Placemark><name>48648766</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238367,-7.198209,0 -48.238396,-7.198076,0</coordinates></LineString></Placemark>
+<Placemark><name>48648393</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241448,-7.202894,0 -48.241567,-7.203140,0</coordinates></LineString></Placemark>
+<Placemark><name>48650025</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238351,-7.198225,0 -48.238367,-7.198209,0</coordinates></LineString></Placemark>
+<Placemark><name>48648394</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241567,-7.203140,0 -48.241646,-7.203302,0</coordinates></LineString></Placemark>
+<Placemark><name>48650332</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238228,-7.197973,0 -48.238351,-7.198225,0</coordinates></LineString></Placemark>
+<Placemark><name>48650319</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238351,-7.198225,0 -48.238518,-7.198545,0</coordinates></LineString></Placemark>
+<Placemark><name>48648395</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241646,-7.203302,0 -48.241766,-7.203565,0</coordinates></LineString></Placemark>
+<Placemark><name>48650342</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238219,-7.197951,0 -48.238228,-7.197973,0</coordinates></LineString></Placemark>
+<Placemark><name>48648396</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241766,-7.203565,0 -48.241895,-7.203839,0</coordinates></LineString></Placemark>
+<Placemark><name>48650297</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238097,-7.197692,0 -48.238219,-7.197951,0</coordinates></LineString></Placemark>
+<Placemark><name>48648397</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241895,-7.203839,0 -48.242062,-7.204196,0</coordinates></LineString></Placemark>
+<Placemark><name>48650309</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237982,-7.197453,0 -48.238097,-7.197692,0</coordinates></LineString></Placemark>
+<Placemark><name>48648398</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242062,-7.204196,0 -48.242190,-7.204472,0</coordinates></LineString></Placemark>
+<Placemark><name>48650361</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237964,-7.197425,0 -48.237982,-7.197453,0</coordinates></LineString></Placemark>
+<Placemark><name>48648377</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242190,-7.204472,0 -48.242301,-7.204707,0</coordinates></LineString></Placemark>
+<Placemark><name>48647912</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237846,-7.197183,0 -48.237964,-7.197425,0</coordinates></LineString></Placemark>
+<Placemark><name>48649407</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242301,-7.204707,0 -48.242310,-7.204728,0</coordinates></LineString></Placemark>
+<Placemark><name>48649491</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237836,-7.197162,0 -48.237846,-7.197183,0</coordinates></LineString></Placemark>
+<Placemark><name>48648453</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242310,-7.204728,0 -48.242431,-7.204987,0</coordinates></LineString></Placemark>
+<Placemark><name>48647879</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237727,-7.196938,0 -48.237836,-7.197162,0</coordinates></LineString></Placemark>
+<Placemark><name>48650580</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242431,-7.204987,0 -48.242443,-7.205012,0</coordinates></LineString></Placemark>
+<Placemark><name>48647893</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237622,-7.196718,0 -48.237727,-7.196938,0</coordinates></LineString></Placemark>
+<Placemark><name>48648486</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242443,-7.205012,0 -48.242566,-7.205292,0</coordinates></LineString></Placemark>
+<Placemark><name>48648487</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242566,-7.205292,0 -48.242699,-7.205561,0</coordinates></LineString></Placemark>
+<Placemark><name>48648488</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242699,-7.205561,0 -48.242841,-7.205861,0</coordinates></LineString></Placemark>
+<Placemark><name>48650664</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242841,-7.205861,0 -48.242852,-7.205887,0</coordinates></LineString></Placemark>
+<Placemark><name>48648473</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242852,-7.205887,0 -48.242981,-7.206161,0</coordinates></LineString></Placemark>
+<Placemark><name>48649390</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242981,-7.206161,0 -48.242988,-7.206181,0</coordinates></LineString></Placemark>
+<Placemark><name>48648516</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242988,-7.206181,0 -48.243011,-7.206389,0</coordinates></LineString></Placemark>
+<Placemark><name>48649381</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243011,-7.206389,0 -48.242987,-7.206394,0</coordinates></LineString></Placemark>
+<Placemark><name>48648542</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242987,-7.206394,0 -48.242840,-7.206430,0</coordinates></LineString></Placemark>
+<Placemark><name>48648543</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242840,-7.206430,0 -48.242580,-7.206516,0</coordinates></LineString></Placemark>
+<Placemark><name>48650697</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242580,-7.206516,0 -48.242551,-7.206526,0</coordinates></LineString></Placemark>
+<Placemark><name>48648544</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242551,-7.206526,0 -48.242306,-7.206605,0</coordinates></LineString></Placemark>
+<Placemark><name>48649324</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242306,-7.206605,0 -48.242327,-7.206615,0</coordinates></LineString></Placemark>
+<Placemark><name>48648527</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242306,-7.206605,0 -48.242126,-7.206664,0</coordinates></LineString></Placemark>
+<Placemark><name>48648572</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242327,-7.206615,0 -48.242345,-7.206623,0</coordinates></LineString></Placemark>
+<Placemark><name>48649332</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242345,-7.206623,0 -48.242347,-7.206647,0</coordinates></LineString></Placemark>
+<Placemark><name>48648598</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242347,-7.206647,0 -48.242479,-7.206925,0</coordinates></LineString></Placemark>
+<Placemark><name>48648599</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242479,-7.206925,0 -48.242603,-7.207185,0</coordinates></LineString></Placemark>
+<Placemark><name>48648600</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242603,-7.207185,0 -48.242738,-7.207477,0</coordinates></LineString></Placemark>
+<Placemark><name>48648601</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242738,-7.207477,0 -48.242844,-7.207701,0</coordinates></LineString></Placemark>
+<Placemark><name>48648583</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242844,-7.207701,0 -48.242932,-7.207854,0</coordinates></LineString></Placemark>
+<Placemark><name>48649340</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242932,-7.207854,0 -48.242926,-7.207878,0</coordinates></LineString></Placemark>
+<Placemark><name>48648638</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242926,-7.207878,0 -48.242922,-7.207937,0</coordinates></LineString></Placemark>
+<Placemark><name>48649348</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242922,-7.207937,0 -48.242909,-7.207958,0</coordinates></LineString></Placemark>
+<Placemark><name>48648661</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242909,-7.207958,0 -48.242669,-7.208067,0</coordinates></LineString></Placemark>
+<Placemark><name>48648649</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242669,-7.208067,0 -48.242398,-7.208188,0</coordinates></LineString></Placemark>
+<Placemark><name>48649356</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242398,-7.208188,0 -48.242376,-7.208203,0</coordinates></LineString></Placemark>
+<Placemark><name>48648686</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242376,-7.208203,0 -48.242225,-7.208271,0</coordinates></LineString></Placemark>
+<Placemark><name>48649364</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242225,-7.208271,0 -48.242205,-7.208283,0</coordinates></LineString></Placemark>
+<Placemark><name>48648696</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242205,-7.208283,0 -48.241628,-7.208549,0</coordinates></LineString></Placemark>
+<Placemark><name>39503347</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241628,-7.208549,0 -48.241472,-7.208206,0</coordinates></LineString></Placemark>
+<Placemark><name>37960153</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241628,-7.208549,0 -48.241640,-7.208572,0</coordinates></LineString></Placemark>
+<Placemark><name>37959914</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245479,-7.216529,0 -48.245602,-7.216761,0</coordinates></LineString></Placemark>
+<Placemark><name>37959904</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245602,-7.216761,0 -48.245765,-7.217159,0</coordinates></LineString></Placemark>
+<Placemark><name>37959924</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245333,-7.216219,0 -48.245479,-7.216529,0</coordinates></LineString></Placemark>
+<Placemark><name>37959894</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245765,-7.217159,0 -48.245828,-7.217303,0</coordinates></LineString></Placemark>
+<Placemark><name>37959934</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245187,-7.215907,0 -48.245333,-7.216219,0</coordinates></LineString></Placemark>
+<Placemark><name>37959884</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245828,-7.217303,0 -48.245961,-7.217577,0</coordinates></LineString></Placemark>
+<Placemark><name>37959944</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245112,-7.215713,0 -48.245187,-7.215907,0</coordinates></LineString></Placemark>
+<Placemark><name>37959873</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245961,-7.217577,0 -48.246099,-7.217893,0</coordinates></LineString></Placemark>
+<Placemark><name>37959954</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245010,-7.215534,0 -48.245112,-7.215713,0</coordinates></LineString></Placemark>
+<Placemark><name>37960285</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246099,-7.217893,0 -48.246105,-7.217910,0</coordinates></LineString></Placemark>
+<Placemark><name>37959966</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244852,-7.215200,0 -48.245010,-7.215534,0</coordinates></LineString></Placemark>
+<Placemark><name>37959862</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246105,-7.217910,0 -48.246210,-7.218247,0</coordinates></LineString></Placemark>
+<Placemark><name>37960269</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244838,-7.215193,0 -48.244852,-7.215200,0</coordinates></LineString></Placemark>
+<Placemark><name>37959851</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246210,-7.218247,0 -48.246357,-7.218566,0</coordinates></LineString></Placemark>
+<Placemark><name>37959976</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244712,-7.214927,0 -48.244838,-7.215193,0</coordinates></LineString></Placemark>
+<Placemark><name>37960723</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246357,-7.218566,0 -48.246554,-7.218994,0</coordinates></LineString></Placemark>
+<Placemark><name>37959987</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244514,-7.214489,0 -48.244712,-7.214927,0</coordinates></LineString></Placemark>
+<Placemark><name>37960712</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246554,-7.218994,0 -48.246699,-7.219306,0</coordinates></LineString></Placemark>
+<Placemark><name>37959997</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244275,-7.214119,0 -48.244514,-7.214489,0</coordinates></LineString></Placemark>
+<Placemark><name>37960836</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246699,-7.219306,0 -48.246708,-7.219326,0</coordinates></LineString></Placemark>
+<Placemark><name>37960007</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244189,-7.213945,0 -48.244275,-7.214119,0</coordinates></LineString></Placemark>
+<Placemark><name>37960824</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246708,-7.219326,0 -48.246651,-7.219357,0</coordinates></LineString></Placemark>
+<Placemark><name>37960017</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244058,-7.213674,0 -48.244189,-7.213945,0</coordinates></LineString></Placemark>
+<Placemark><name>37960844</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246651,-7.219357,0 -48.246633,-7.219367,0</coordinates></LineString></Placemark>
+<Placemark><name>37960261</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244047,-7.213644,0 -48.244058,-7.213674,0</coordinates></LineString></Placemark>
+<Placemark><name>37960802</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246633,-7.219367,0 -48.246709,-7.219522,0</coordinates></LineString></Placemark>
+<Placemark><name>37960027</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243911,-7.213363,0 -48.244047,-7.213644,0</coordinates></LineString></Placemark>
+<Placemark><name>37960814</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246709,-7.219522,0 -48.246837,-7.219761,0</coordinates></LineString></Placemark>
+<Placemark><name>37960038</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243780,-7.213087,0 -48.243911,-7.213363,0</coordinates></LineString></Placemark>
+<Placemark><name>37960852</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246837,-7.219761,0 -48.246856,-7.219784,0</coordinates></LineString></Placemark>
+<Placemark><name>37960048</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243650,-7.212814,0 -48.243780,-7.213087,0</coordinates></LineString></Placemark>
+<Placemark><name>37960791</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246856,-7.219784,0 -48.246946,-7.219849,0</coordinates></LineString></Placemark>
+<Placemark><name>37960058</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243532,-7.212570,0 -48.243650,-7.212814,0</coordinates></LineString></Placemark>
+<Placemark><name>37960860</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246946,-7.219849,0 -48.246953,-7.219865,0</coordinates></LineString></Placemark>
+<Placemark><name>37960068</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243397,-7.212290,0 -48.243532,-7.212570,0</coordinates></LineString></Placemark>
+<Placemark><name>37960702</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246953,-7.219865,0 -48.247107,-7.220200,0</coordinates></LineString></Placemark>
+<Placemark><name>37960078</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243289,-7.212064,0 -48.243397,-7.212290,0</coordinates></LineString></Placemark>
+<Placemark><name>37960692</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247107,-7.220200,0 -48.247207,-7.220421,0</coordinates></LineString></Placemark>
+<Placemark><name>37960088</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243169,-7.211809,0 -48.243289,-7.212064,0</coordinates></LineString></Placemark>
+<Placemark><name>37960682</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247207,-7.220421,0 -48.247334,-7.220700,0</coordinates></LineString></Placemark>
+<Placemark><name>37960098</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243066,-7.211582,0 -48.243169,-7.211809,0</coordinates></LineString></Placemark>
+<Placemark><name>37960671</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247334,-7.220700,0 -48.247384,-7.220806,0</coordinates></LineString></Placemark>
+<Placemark><name>37960108</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243049,-7.211544,0 -48.243066,-7.211582,0</coordinates></LineString></Placemark>
+<Placemark><name>37960758</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247384,-7.220806,0 -48.247397,-7.220831,0</coordinates></LineString></Placemark>
+<Placemark><name>37960253</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243041,-7.211526,0 -48.243049,-7.211544,0</coordinates></LineString></Placemark>
+<Placemark><name>37960661</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247397,-7.220831,0 -48.247466,-7.220989,0</coordinates></LineString></Placemark>
+<Placemark><name>37960119</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242945,-7.211322,0 -48.243041,-7.211526,0</coordinates></LineString></Placemark>
+<Placemark><name>39500866</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247466,-7.220989,0 -48.247447,-7.220983,0</coordinates></LineString></Placemark>
+<Placemark><name>37960651</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247466,-7.220989,0 -48.247542,-7.221157,0</coordinates></LineString></Placemark>
+<Placemark><name>37960132</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242801,-7.211011,0 -48.242945,-7.211322,0</coordinates></LineString></Placemark>
+<Placemark><name>37962824</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247447,-7.220983,0 -48.247205,-7.220999,0</coordinates></LineString></Placemark>
+<Placemark><name>37960640</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247542,-7.221157,0 -48.247619,-7.221319,0</coordinates></LineString></Placemark>
+<Placemark><name>37960143</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242518,-7.210393,0 -48.242801,-7.211011,0</coordinates></LineString></Placemark>
+<Placemark><name>39500858</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247205,-7.220999,0 -48.247177,-7.221010,0</coordinates></LineString></Placemark>
+<Placemark><name>37960163</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242366,-7.210089,0 -48.242518,-7.210393,0</coordinates></LineString></Placemark>
+<Placemark><name>37962849</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.247177,-7.221010,0 -48.246858,-7.221141,0</coordinates></LineString></Placemark>
+<Placemark><name>37960173</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242228,-7.209793,0 -48.242366,-7.210089,0</coordinates></LineString></Placemark>
+<Placemark><name>37962850</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246858,-7.221141,0 -48.246523,-7.221280,0</coordinates></LineString></Placemark>
+<Placemark><name>37960237</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242221,-7.209776,0 -48.242228,-7.209793,0</coordinates></LineString></Placemark>
+<Placemark><name>37962851</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246523,-7.221280,0 -48.246231,-7.221402,0</coordinates></LineString></Placemark>
+<Placemark><name>37960183</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242087,-7.209495,0 -48.242221,-7.209776,0</coordinates></LineString></Placemark>
+<Placemark><name>37962835</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.246231,-7.221402,0 -48.245966,-7.221509,0</coordinates></LineString></Placemark>
+<Placemark><name>37960229</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242072,-7.209465,0 -48.242087,-7.209495,0</coordinates></LineString></Placemark>
+<Placemark><name>39500850</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245966,-7.221509,0 -48.245947,-7.221517,0</coordinates></LineString></Placemark>
+<Placemark><name>37960194</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241765,-7.208842,0 -48.242072,-7.209465,0</coordinates></LineString></Placemark>
+<Placemark><name>37962893</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245947,-7.221517,0 -48.245623,-7.221654,0</coordinates></LineString></Placemark>
+<Placemark><name>37960221</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241753,-7.208815,0 -48.241765,-7.208842,0</coordinates></LineString></Placemark>
+<Placemark><name>37962894</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245623,-7.221654,0 -48.245341,-7.221777,0</coordinates></LineString></Placemark>
+<Placemark><name>37960205</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241638,-7.208569,0 -48.241753,-7.208815,0</coordinates></LineString></Placemark>
+<Placemark><name>37962879</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245341,-7.221777,0 -48.245116,-7.221876,0</coordinates></LineString></Placemark>
+<Placemark><name>39500842</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245116,-7.221876,0 -48.245091,-7.221886,0</coordinates></LineString></Placemark>
+<Placemark><name>37962927</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.245091,-7.221886,0 -48.244770,-7.222027,0</coordinates></LineString></Placemark>
+<Placemark><name>37962928</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244770,-7.222027,0 -48.244436,-7.222164,0</coordinates></LineString></Placemark>
+<Placemark><name>37962929</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244436,-7.222164,0 -48.244103,-7.222305,0</coordinates></LineString></Placemark>
+<Placemark><name>37962913</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.244103,-7.222305,0 -48.243776,-7.222460,0</coordinates></LineString></Placemark>
+<Placemark><name>37962957</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243776,-7.222460,0 -48.243451,-7.222600,0</coordinates></LineString></Placemark>
+<Placemark><name>39500834</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243451,-7.222600,0 -48.243428,-7.222610,0</coordinates></LineString></Placemark>
+<Placemark><name>37962981</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243428,-7.222610,0 -48.243119,-7.222756,0</coordinates></LineString></Placemark>
+<Placemark><name>37962982</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.243119,-7.222756,0 -48.242800,-7.222922,0</coordinates></LineString></Placemark>
+<Placemark><name>37962983</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242800,-7.222922,0 -48.242474,-7.223079,0</coordinates></LineString></Placemark>
+<Placemark><name>37962967</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242474,-7.223079,0 -48.242128,-7.223204,0</coordinates></LineString></Placemark>
+<Placemark><name>37963011</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.242128,-7.223204,0 -48.241805,-7.223331,0</coordinates></LineString></Placemark>
+<Placemark><name>39500826</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241805,-7.223331,0 -48.241777,-7.223335,0</coordinates></LineString></Placemark>
+<Placemark><name>37963034</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241777,-7.223335,0 -48.241431,-7.223356,0</coordinates></LineString></Placemark>
+<Placemark><name>37963035</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241431,-7.223356,0 -48.241130,-7.223351,0</coordinates></LineString></Placemark>
+<Placemark><name>37963021</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241130,-7.223351,0 -48.240815,-7.223297,0</coordinates></LineString></Placemark>
+<Placemark><name>39500818</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240815,-7.223297,0 -48.240787,-7.223292,0</coordinates></LineString></Placemark>
+<Placemark><name>37963061</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240787,-7.223292,0 -48.240575,-7.223207,0</coordinates></LineString></Placemark>
+<Placemark><name>39500810</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240575,-7.223207,0 -48.240541,-7.223196,0</coordinates></LineString></Placemark>
+<Placemark><name>37963100</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240541,-7.223196,0 -48.240229,-7.223094,0</coordinates></LineString></Placemark>
+<Placemark><name>37963101</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.240229,-7.223094,0 -48.239880,-7.222990,0</coordinates></LineString></Placemark>
+<Placemark><name>37963102</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239880,-7.222990,0 -48.239545,-7.222892,0</coordinates></LineString></Placemark>
+<Placemark><name>37963103</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239545,-7.222892,0 -48.239204,-7.222781,0</coordinates></LineString></Placemark>
+<Placemark><name>37963104</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.239204,-7.222781,0 -48.238851,-7.222691,0</coordinates></LineString></Placemark>
+<Placemark><name>37963105</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238851,-7.222691,0 -48.238501,-7.222588,0</coordinates></LineString></Placemark>
+<Placemark><name>37962705</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.230059,-7.220078,0 -48.230034,-7.220074,0</coordinates></LineString></Placemark>
+<Placemark><name>37962228</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.230034,-7.220074,0 -48.229870,-7.220087,0</coordinates></LineString></Placemark>
+<Placemark><name>37962181</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.230415,-7.220172,0 -48.230059,-7.220078,0</coordinates></LineString></Placemark>
+<Placemark><name>37962216</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.229870,-7.220087,0 -48.229560,-7.220112,0</coordinates></LineString></Placemark>
+<Placemark><name>37962197</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.230729,-7.220255,0 -48.230415,-7.220172,0</coordinates></LineString></Placemark>
+<Placemark><name>37962713</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.229560,-7.220112,0 -48.229533,-7.220117,0</coordinates></LineString></Placemark>
+<Placemark><name>37962196</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.231240,-7.220423,0 -48.230729,-7.220255,0</coordinates></LineString></Placemark>
+<Placemark><name>37962254</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.229533,-7.220117,0 -48.229318,-7.220224,0</coordinates></LineString></Placemark>
+<Placemark><name>39500762</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.231265,-7.220435,0 -48.231240,-7.220423,0</coordinates></LineString></Placemark>
+<Placemark><name>37962255</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.229318,-7.220224,0 -48.229160,-7.220397,0</coordinates></LineString></Placemark>
+<Placemark><name>39500743</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.231597,-7.220534,0 -48.231265,-7.220435,0</coordinates></LineString></Placemark>
+<Placemark><name>37962256</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.229160,-7.220397,0 -48.228970,-7.220459,0</coordinates></LineString></Placemark>
+<Placemark><name>39500754</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.231623,-7.220543,0 -48.231597,-7.220534,0</coordinates></LineString></Placemark>
+<Placemark><name>37962257</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228970,-7.220459,0 -48.228737,-7.220585,0</coordinates></LineString></Placemark>
+<Placemark><name>39500710</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.231970,-7.220647,0 -48.231623,-7.220543,0</coordinates></LineString></Placemark>
+<Placemark><name>37962258</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228737,-7.220585,0 -48.228515,-7.220680,0</coordinates></LineString></Placemark>
+<Placemark><name>39500724</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.232274,-7.220737,0 -48.231970,-7.220647,0</coordinates></LineString></Placemark>
+<Placemark><name>37962238</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228515,-7.220680,0 -48.228279,-7.220728,0</coordinates></LineString></Placemark>
+<Placemark><name>39500723</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.232577,-7.220826,0 -48.232274,-7.220737,0</coordinates></LineString></Placemark>
+<Placemark><name>37962721</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228279,-7.220728,0 -48.228252,-7.220726,0</coordinates></LineString></Placemark>
+<Placemark><name>39500770</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.232601,-7.220830,0 -48.232577,-7.220826,0</coordinates></LineString></Placemark>
+<Placemark><name>37962304</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228252,-7.220726,0 -48.228228,-7.220708,0</coordinates></LineString></Placemark>
+<Placemark><name>39500700</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.232983,-7.220947,0 -48.232601,-7.220830,0</coordinates></LineString></Placemark>
+<Placemark><name>37962729</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228228,-7.220708,0 -48.228206,-7.220688,0</coordinates></LineString></Placemark>
+<Placemark><name>39500678</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.233260,-7.221028,0 -48.232983,-7.220947,0</coordinates></LineString></Placemark>
+<Placemark><name>37962315</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228206,-7.220688,0 -48.228195,-7.220647,0</coordinates></LineString></Placemark>
+<Placemark><name>39500690</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.233597,-7.221129,0 -48.233260,-7.221028,0</coordinates></LineString></Placemark>
+<Placemark><name>37962737</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228195,-7.220647,0 -48.228194,-7.220621,0</coordinates></LineString></Placemark>
+<Placemark><name>39500778</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.233621,-7.221139,0 -48.233597,-7.221129,0</coordinates></LineString></Placemark>
+<Placemark><name>37962340</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228194,-7.220621,0 -48.228197,-7.220360,0</coordinates></LineString></Placemark>
+<Placemark><name>37963244</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.233955,-7.221237,0 -48.233621,-7.221139,0</coordinates></LineString></Placemark>
+<Placemark><name>37962341</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228197,-7.220360,0 -48.228196,-7.220081,0</coordinates></LineString></Placemark>
+<Placemark><name>39500641</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.234302,-7.221339,0 -48.233955,-7.221237,0</coordinates></LineString></Placemark>
+<Placemark><name>37962342</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228196,-7.220081,0 -48.228202,-7.219695,0</coordinates></LineString></Placemark>
+<Placemark><name>39500640</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.234647,-7.221443,0 -48.234302,-7.221339,0</coordinates></LineString></Placemark>
+<Placemark><name>37962326</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228202,-7.219695,0 -48.228204,-7.219484,0</coordinates></LineString></Placemark>
+<Placemark><name>39500639</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.234995,-7.221546,0 -48.234647,-7.221443,0</coordinates></LineString></Placemark>
+<Placemark><name>37962745</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228204,-7.219484,0 -48.228205,-7.219457,0</coordinates></LineString></Placemark>
+<Placemark><name>39500638</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.235328,-7.221641,0 -48.234995,-7.221546,0</coordinates></LineString></Placemark>
+<Placemark><name>37962385</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228205,-7.219457,0 -48.228201,-7.219243,0</coordinates></LineString></Placemark>
+<Placemark><name>39500786</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.235359,-7.221650,0 -48.235328,-7.221641,0</coordinates></LineString></Placemark>
+<Placemark><name>37962386</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228201,-7.219243,0 -48.228199,-7.218986,0</coordinates></LineString></Placemark>
+<Placemark><name>37963234</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.235688,-7.221754,0 -48.235359,-7.221650,0</coordinates></LineString></Placemark>
+<Placemark><name>37962387</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228199,-7.218986,0 -48.228197,-7.218659,0</coordinates></LineString></Placemark>
+<Placemark><name>37963201</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.236045,-7.221860,0 -48.235688,-7.221754,0</coordinates></LineString></Placemark>
+<Placemark><name>37962388</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228197,-7.218659,0 -48.228195,-7.218275,0</coordinates></LineString></Placemark>
+<Placemark><name>37963215</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.236400,-7.221965,0 -48.236045,-7.221860,0</coordinates></LineString></Placemark>
+<Placemark><name>37962370</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228195,-7.218275,0 -48.228193,-7.218047,0</coordinates></LineString></Placemark>
+<Placemark><name>37963214</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.236730,-7.222066,0 -48.236400,-7.221965,0</coordinates></LineString></Placemark>
+<Placemark><name>37962753</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228193,-7.218047,0 -48.228194,-7.218019,0</coordinates></LineString></Placemark>
+<Placemark><name>39500794</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.236763,-7.222077,0 -48.236730,-7.222066,0</coordinates></LineString></Placemark>
+<Placemark><name>37962425</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228194,-7.218019,0 -48.228205,-7.217653,0</coordinates></LineString></Placemark>
+<Placemark><name>37963190</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237104,-7.222176,0 -48.236763,-7.222077,0</coordinates></LineString></Placemark>
+<Placemark><name>37962761</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228205,-7.217653,0 -48.228206,-7.217629,0</coordinates></LineString></Placemark>
+<Placemark><name>39500802</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237130,-7.222185,0 -48.237104,-7.222176,0</coordinates></LineString></Placemark>
+<Placemark><name>37962450</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228206,-7.217629,0 -48.228209,-7.217369,0</coordinates></LineString></Placemark>
+<Placemark><name>37963180</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237465,-7.222287,0 -48.237130,-7.222185,0</coordinates></LineString></Placemark>
+<Placemark><name>37962451</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228209,-7.217369,0 -48.228220,-7.216985,0</coordinates></LineString></Placemark>
+<Placemark><name>37963081</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237810,-7.222386,0 -48.237465,-7.222287,0</coordinates></LineString></Placemark>
+<Placemark><name>37962452</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228220,-7.216985,0 -48.228226,-7.216694,0</coordinates></LineString></Placemark>
+<Placemark><name>37963107</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238156,-7.222491,0 -48.237810,-7.222386,0</coordinates></LineString></Placemark>
+<Placemark><name>37962769</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228226,-7.216694,0 -48.228208,-7.216692,0</coordinates></LineString></Placemark>
+<Placemark><name>37962436</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228226,-7.216694,0 -48.228227,-7.216629,0</coordinates></LineString></Placemark>
+<Placemark><name>37963106</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238467,-7.222579,0 -48.238156,-7.222491,0</coordinates></LineString></Placemark>
+<Placemark><name>37962480</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.228208,-7.216692,0 -48.227804,-7.216645,0</coordinates></LineString></Placemark>
+<Placemark><name>37962777</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.227804,-7.216645,0 -48.227780,-7.216643,0</coordinates></LineString></Placemark>
+<Placemark><name>37962506</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.227780,-7.216643,0 -48.227511,-7.216625,0</coordinates></LineString></Placemark>
+<Placemark><name>37962507</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.227511,-7.216625,0 -48.227189,-7.216601,0</coordinates></LineString></Placemark>
+<Placemark><name>37962508</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.227189,-7.216601,0 -48.226802,-7.216572,0</coordinates></LineString></Placemark>
+<Placemark><name>37962492</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.226802,-7.216572,0 -48.226511,-7.216549,0</coordinates></LineString></Placemark>
+<Placemark><name>37962785</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.226511,-7.216549,0 -48.226485,-7.216549,0</coordinates></LineString></Placemark>
+<Placemark><name>37962551</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.226485,-7.216549,0 -48.226087,-7.216575,0</coordinates></LineString></Placemark>
+<Placemark><name>37962536</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.226087,-7.216575,0 -48.225746,-7.216597,0</coordinates></LineString></Placemark>
+<Placemark><name>37962793</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.225746,-7.216597,0 -48.225719,-7.216598,0</coordinates></LineString></Placemark>
+<Placemark><name>37962576</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.225719,-7.216598,0 -48.225211,-7.216621,0</coordinates></LineString></Placemark>
+<Placemark><name>37962577</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.225211,-7.216621,0 -48.224882,-7.216631,0</coordinates></LineString></Placemark>
+<Placemark><name>37962578</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.224882,-7.216631,0 -48.224569,-7.216637,0</coordinates></LineString></Placemark>
+<Placemark><name>37962579</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.224569,-7.216637,0 -48.224307,-7.216644,0</coordinates></LineString></Placemark>
+<Placemark><name>37962561</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.224307,-7.216644,0 -48.224109,-7.216650,0</coordinates></LineString></Placemark>
+<Placemark><name>37962801</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.224109,-7.216650,0 -48.224080,-7.216649,0</coordinates></LineString></Placemark>
+<Placemark><name>37962630</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.224080,-7.216649,0 -48.223690,-7.216611,0</coordinates></LineString></Placemark>
+<Placemark><name>37962631</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.223690,-7.216611,0 -48.223429,-7.216588,0</coordinates></LineString></Placemark>
+<Placemark><name>37962616</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.223429,-7.216588,0 -48.223086,-7.216557,0</coordinates></LineString></Placemark>
+<Placemark><name>37962809</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.223086,-7.216557,0 -48.223058,-7.216552,0</coordinates></LineString></Placemark>
+<Placemark><name>37962665</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.223058,-7.216552,0 -48.222792,-7.216557,0</coordinates></LineString></Placemark>
+<Placemark><name>37962666</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.222792,-7.216557,0 -48.222275,-7.216563,0</coordinates></LineString></Placemark>
+<Placemark><name>37962667</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.222275,-7.216563,0 -48.221950,-7.216569,0</coordinates></LineString></Placemark>
+<Placemark><name>37962668</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221950,-7.216569,0 -48.221690,-7.216572,0</coordinates></LineString></Placemark>
+<Placemark><name>37962650</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221690,-7.216572,0 -48.221260,-7.216578,0</coordinates></LineString></Placemark>
+<Placemark><name>39503101</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220997,-7.216569,0 -48.220987,-7.216461,0</coordinates></LineString></Placemark>
+<Placemark><name>39503071</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221234,-7.216578,0 -48.220997,-7.216569,0</coordinates></LineString></Placemark>
+<Placemark><name>39503091</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220997,-7.216569,0 -48.220996,-7.216652,0</coordinates></LineString></Placemark>
+<Placemark><name>39503081</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220997,-7.216569,0 -48.220932,-7.216567,0</coordinates></LineString></Placemark>
+<Placemark><name>39503126</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221009,-7.215737,0 -48.221016,-7.215377,0</coordinates></LineString></Placemark>
+<Placemark><name>39503111</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221016,-7.215377,0 -48.221021,-7.215018,0</coordinates></LineString></Placemark>
+<Placemark><name>39503125</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220992,-7.216099,0 -48.221009,-7.215737,0</coordinates></LineString></Placemark>
+<Placemark><name>34927422</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221021,-7.215018,0 -48.221036,-7.214975,0</coordinates></LineString></Placemark>
+<Placemark><name>39503124</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220988,-7.216425,0 -48.220992,-7.216099,0</coordinates></LineString></Placemark>
+<Placemark><name>48380035</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220990,-7.214975,0 -48.220948,-7.214905,0</coordinates></LineString></Placemark>
+<Placemark><name>34927435</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221031,-7.214975,0 -48.220990,-7.214975,0</coordinates></LineString></Placemark>
+<Placemark><name>43756137</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220990,-7.214975,0 -48.220918,-7.214975,0</coordinates></LineString></Placemark>
+<Placemark><name>43756147</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220918,-7.214975,0 -48.220827,-7.214977,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave DJ_AL08010004_FICT</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237755,-7.195165,0 -48.237862,-7.195337,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8855208004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238103,-7.195596,0 -48.238101,-7.195618,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8855209004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.237610,-7.196694,0 -48.237622,-7.196718,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8855193004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.241640,-7.208572,0 -48.241638,-7.208569,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8852814004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.238501,-7.222588,0 -48.238467,-7.222579,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8854464004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221260,-7.216578,0 -48.221234,-7.216578,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8852812004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.220987,-7.216461,0 -48.220988,-7.216425,0</coordinates></LineString></Placemark>
+<Placemark><name>Suporte Chave 8654451004</name><styleUrl>#styleDaimonCIRCUITO88TRECHO</styleUrl><LineString><coordinates>-48.221036,-7.214975,0 -48.221031,-7.214975,0</coordinates></LineString></Placemark>
+</Folder>
+<Folder>
+<name>RedeBT</name>
+</Folder>
+</Folder>
+</Document>
+</kml>
