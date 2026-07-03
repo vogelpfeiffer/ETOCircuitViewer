@@ -154,6 +154,44 @@ html, body {
     border-radius: 50%;
 }
 
+.legend-swatch--triangle {
+    width: 0;
+    height: 0;
+    background: transparent !important;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 13px solid var(--swatch-color, #999);
+    border-radius: 0;
+}
+
+.legend-swatch--hexagon {
+    border-radius: 0;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+/* ----------------------
+   Empty state (no ?kml= supplied)
+   ---------------------- */
+
+.empty-state {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    padding: 24px;
+    color: #4A5568;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.empty-state code {
+    font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+    background: rgba(0, 0, 0, 0.06);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+
 /* ----------------------
    Map markers
    ---------------------- */

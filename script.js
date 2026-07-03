@@ -8,13 +8,22 @@
 
 const params = new URLSearchParams(window.location.search);
 
-const DEFAULT_KML = "Norte/SE-2AGT_Circ-AL01014045.kml";
-const kmlFiles = (params.get("kml") || DEFAULT_KML)
-    .split(",")
-    .map(f => f.trim())
-    .filter(Boolean);
+// No hardcoded fallback file anymore — a silently-wrong default is worse
+// than an obvious empty state. AppSheet always supplies ?kml= explicitly.
+const kmlParam = params.get("kml");
+const kmlFiles = kmlParam
+    ? kmlParam.split(",").map(f => f.trim()).filter(Boolean)
+    : [];
 
 const selectedID = params.get("id");
+
+if (kmlFiles.length === 0) {
+    document.getElementById("map").innerHTML =
+        '<div class="empty-state">Nenhum circuito especificado.<br>' +
+        'Abra esta página com <code>?kml=Pasta/Arquivo.kml</code> na URL ' +
+        '(é assim que o AppSheet vai chamar o mapa).</div>';
+    throw new Error("No ?kml= param provided — stopping before hitting the network.");
+}
 
 // Registry of every marker currently on the map, used by search
 // and the legend. Kept flat regardless of how many KMLs are loaded.
@@ -66,10 +75,10 @@ kmlFiles.forEach(kmlFile => {
 
 function registerFeature(l, kmlFile) {
     if (!l.feature || !l.feature.properties) return;
-    if (!(l instanceof L.Marker)) return; // only re-skin point features
+    if (!(l instanceof L.Marker)) return; // Trecho segments are LineStrings — skip, keep as plain lines
 
-    const name = l.feature.properties.name;
-    const info = getEquipmentInfo(name);
+    const { name, styleUrl } = l.feature.properties;
+    const info = classifyEquipment(name, styleUrl);
 
     l.setIcon(createEquipmentIcon(info, false));
     l.bindTooltip(
