@@ -25,6 +25,29 @@ if (kmlFiles.length === 0) {
     throw new Error("No ?kml= param provided — stopping before hitting the network.");
 }
 
+// ----------------------
+// Region folder name mapping
+// AppSheet sends region names lowercase (e.g. "centro"), but the
+// actual folders on GitHub Pages have mixed casing. Map here instead
+// of renaming folders, since GitHub Pages is case-sensitive.
+// ----------------------
+const REGION_FOLDER_MAP = {
+    "centro": "CENTRO",
+    "norte": "Norte",
+    "sul": "Sul"
+};
+
+function resolveKmlPath(kmlFile) {
+    const slashIndex = kmlFile.indexOf("/");
+    if (slashIndex === -1) return kmlFile; // no folder prefix, leave as-is
+
+    const region = kmlFile.slice(0, slashIndex);
+    const rest = kmlFile.slice(slashIndex + 1);
+    const mappedRegion = REGION_FOLDER_MAP[region.toLowerCase()] || region;
+
+    return mappedRegion + "/" + rest;
+}
+
 // Registry of every marker currently on the map, used by search
 // and the legend. Kept flat regardless of how many KMLs are loaded.
 // Each entry: { id, marker, info, kmlFile }
@@ -49,7 +72,7 @@ let pendingLayers = kmlFiles.length;
 const allBounds = [];
 
 kmlFiles.forEach(kmlFile => {
-    const layer = omnivore.kml("kml/" + kmlFile);
+    const layer = omnivore.kml("kml/" + resolveKmlPath(kmlFile));
 
     layer.on("ready", function () {
         layer.eachLayer(l => registerFeature(l, kmlFile));
