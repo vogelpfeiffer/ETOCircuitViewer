@@ -6,4 +6,4 @@ Visualização de trecho de rede por alimentador, integrado internamente ao apli
 
 Changelog
 V1 - Versão de visualização inicial
-V1.1 - Ajuste de ícones para padronização
+V1.1 - Ajuste de ícones para padronização Engenharia
