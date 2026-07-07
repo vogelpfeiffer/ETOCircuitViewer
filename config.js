@@ -98,6 +98,40 @@ const FEEDER_HEAD_TYPE = {
 
 const FEEDER_HEAD_PATTERN = /_FICT$/i;
 
+// ==========================================================
+// APPSHEET DEEP LINK — corporate protection settings
+//
+// The map is public (GitHub Pages). Relay/regulator settings
+// are corporate data and must NEVER be embedded in this static
+// site. Instead, equipment with a matching "Ajustes" table gets
+// a deep link back into AppSheet, which enforces its own
+// office365 login — anyone without a corporate account just
+// hits AppSheet's login wall, no data ever leaves AppSheet.
+//
+// ==========================================================
+
+const APPSHEET_APP_ID = "d9e492c0-a7c5-495c-b9c0-105967e0b839";
+
+// Keyed by the "symbol" value from classifyEquipment() — only
+// types with a real corporate settings table get an entry here.
+const APPSHEET_AJUSTE_VIEWS = {
+    "recloser": "Equipamentos Ajustes.gsheet_Detail",
+    "regulator": "Ajustes Reguladores de Tensão_Detail"
+};
+
+/**
+ * Builds a deep link to the AppSheet detail view for this
+ * equipment's settings row, or null if this equipment type
+ * has no corporate settings table.
+ * @param {string} symbol - info.symbol from classifyEquipment()
+ * @param {string} equipmentId - the KML placemark name (row key)
+ */
+function buildAjusteLink(symbol, equipmentId) {
+    const view = APPSHEET_AJUSTE_VIEWS[symbol];
+    if (!view) return null;
+    return `https://www.appsheet.com/start/${APPSHEET_APP_ID}#view=${encodeURIComponent(view)}&row=${encodeURIComponent(equipmentId)}`;
+}
+
 /**
  * Classifies a placemark into its visual equipment type.
  * @param {string} rawId - feature name (e.g. "8800761045", "PR34941045")

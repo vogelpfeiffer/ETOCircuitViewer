@@ -109,6 +109,23 @@ function registerFeature(l, kmlFile) {
         { direction: "top", sticky: true }
     );
 
+    // Corporate settings deep link — only for equipment types that
+    // have a matching AppSheet "Ajustes" table (Religador, Regulador).
+    // No settings data lives here; clicking just hands off to
+    // AppSheet, which enforces the corporate login on its own.
+    const ajusteLink = buildAjusteLink(info.symbol, name);
+    if (ajusteLink) {
+        l.bindPopup(
+            `<div class="ajuste-popup">
+                <strong>${info.short}</strong> — ${info.type}<br>
+                <code>${name}</code><br>
+                <a href="${ajusteLink}" target="_blank" rel="noopener" class="ajuste-link">
+                    📋 Ver ajustes (Corporativo)
+                </a>
+            </div>`
+        );
+    }
+
     registry.push({ id: String(name), marker: l, info, kmlFile });
 }
 
