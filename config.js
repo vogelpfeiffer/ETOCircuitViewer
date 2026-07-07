@@ -120,6 +120,15 @@ const APPSHEET_AJUSTE_VIEWS = {
 };
 
 /**
+ * Whether this equipment symbol type has a corporate "Ajustes"
+ * table behind it — used both for the popup deep link and for
+ * the small badge markers.js draws on the icon itself.
+ */
+function hasAjusteData(symbol) {
+    return !!APPSHEET_AJUSTE_VIEWS[symbol];
+}
+
+/**
  * Builds a deep link to the AppSheet detail view for this
  * equipment's settings row, or null if this equipment type
  * has no corporate settings table.

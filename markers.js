@@ -93,6 +93,19 @@ function glyphUnknown(c) {
                   fill="${c}" font-family="Arial, sans-serif">?</text>`;
 }
 
+// ----- "Ajuste disponível" badge -----
+// Small corner badge drawn on top of any icon whose equipment
+// type has a corporate settings table (see hasAjusteData() in
+// config.js). Same criterion the popup deep link already uses —
+// this is purely visual, it reads no per-equipment data.
+function ajusteBadge() {
+    return `<circle cx="19.3" cy="4.7" r="4.3" fill="#3F51B5" stroke="#fff" stroke-width="1"/>
+            <rect x="17.5" y="2.9" width="3.6" height="3.6" rx="0.5" fill="#fff"/>
+            <line x1="18.1" y1="3.85" x2="20.5" y2="3.85" stroke="#3F51B5" stroke-width="0.5"/>
+            <line x1="18.1" y1="4.75" x2="20.5" y2="4.75" stroke="#3F51B5" stroke-width="0.5"/>
+            <line x1="18.1" y1="5.65" x2="19.8" y2="5.65" stroke="#3F51B5" stroke-width="0.5"/>`;
+}
+
 // ----- Religador: dedicated render, not part of the switch family -----
 function glyphRecloser(open) {
     const boxFill = open ? "#fff" : "#9E9E9E";
@@ -158,13 +171,12 @@ function drawAccessory(accessory, c) {
 
 function buildSymbolMarkup(info) {
     const { symbol, color, open, accessory } = info;
+    let markup;
 
     // Religador: fully separate render, ignores the generic backdrop helpers.
     if (symbol === "recloser") {
-        return glyphRecloser(!!open);
-    }
-
-    if (symbol === "switch") {
+        markup = glyphRecloser(!!open);
+    } else if (symbol === "switch") {
         const backdrop = switchBackdrop(color, !!open);
         const glyphColor = open ? color : "#fff";
         const baseGlyph = accessory === "unipolar"
@@ -173,22 +185,29 @@ function buildSymbolMarkup(info) {
         const accessoryGlyph = accessory && accessory !== "unipolar"
             ? drawAccessory(accessory, open ? color : "#333")
             : "";
-        return backdrop + baseGlyph + accessoryGlyph;
+        markup = backdrop + baseGlyph + accessoryGlyph;
+    } else {
+        // Non-switching families: neutral backdrop + static glyph.
+        const backdrop = neutralBackdrop(color);
+        switch (symbol) {
+            case "transformer":      markup = backdrop + glyphTransformer(color); break;
+            case "regulator":        markup = backdrop + glyphRegulator(color); break;
+            case "capacitorBank":    markup = backdrop + glyphCapacitorBank(color); break;
+            case "capacitorSeries":  markup = backdrop + glyphCapacitorSeries(color); break;
+            case "generator":        markup = backdrop + glyphGenerator(color); break;
+            case "reactor":          markup = backdrop + glyphReactor(color); break;
+            case "breaker":          markup = backdrop + glyphBreaker(color); break;
+            case "unknown":
+            default:                 markup = backdrop + glyphUnknown(color);
+        }
     }
 
-    // Non-switching families: neutral backdrop + static glyph.
-    const backdrop = neutralBackdrop(color);
-    switch (symbol) {
-        case "transformer":      return backdrop + glyphTransformer(color);
-        case "regulator":        return backdrop + glyphRegulator(color);
-        case "capacitorBank":    return backdrop + glyphCapacitorBank(color);
-        case "capacitorSeries":  return backdrop + glyphCapacitorSeries(color);
-        case "generator":        return backdrop + glyphGenerator(color);
-        case "reactor":          return backdrop + glyphReactor(color);
-        case "breaker":          return backdrop + glyphBreaker(color);
-        case "unknown":
-        default:                return backdrop + glyphUnknown(color);
+    // Corner badge: drawn last so it sits on top of everything else.
+    if (typeof hasAjusteData === "function" && hasAjusteData(symbol)) {
+        markup += ajusteBadge();
     }
+
+    return markup;
 }
 
 /**
