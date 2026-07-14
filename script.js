@@ -25,29 +25,6 @@ if (kmlFiles.length === 0) {
     throw new Error("No ?kml= param provided — stopping before hitting the network.");
 }
 
-// ----------------------
-// Region folder name mapping
-// AppSheet sends region names lowercase (e.g. "centro"), but the
-// actual folders on GitHub Pages have mixed casing. Map here instead
-// of renaming folders, since GitHub Pages is case-sensitive.
-// ----------------------
-const REGION_FOLDER_MAP = {
-    "centro": "CENTRO",
-    "norte": "Norte",
-    "sul": "Sul"
-};
-
-function resolveKmlPath(kmlFile) {
-    const slashIndex = kmlFile.indexOf("/");
-    if (slashIndex === -1) return kmlFile; // no folder prefix, leave as-is
-
-    const region = kmlFile.slice(0, slashIndex);
-    const rest = kmlFile.slice(slashIndex + 1);
-    const mappedRegion = REGION_FOLDER_MAP[region.toLowerCase()] || region;
-
-    return mappedRegion + "/" + rest;
-}
-
 // Registry of every marker currently on the map, used by search
 // and the legend. Kept flat regardless of how many KMLs are loaded.
 // Each entry: { id, marker, info, kmlFile }
@@ -59,9 +36,22 @@ const registry = [];
 
 const map = L.map("map").setView([-10.25, -48.33], 10);
 
-L.tileLayer(
+const streetLayer = L.tileLayer(
     "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
     { attribution: "© OpenStreetMap", maxZoom: 19 }
+);
+
+const satelliteLayer = L.tileLayer(
+    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    { attribution: "Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics", maxZoom: 19 }
+);
+
+streetLayer.addTo(map);
+
+L.control.layers(
+    { "Mapa de Ruas": streetLayer, "Satélite": satelliteLayer },
+    null,
+    { position: "topright", collapsed: false }
 ).addTo(map);
 
 // ----------------------
@@ -72,7 +62,7 @@ let pendingLayers = kmlFiles.length;
 const allBounds = [];
 
 kmlFiles.forEach(kmlFile => {
-    const layer = omnivore.kml("kml/" + resolveKmlPath(kmlFile));
+    const layer = omnivore.kml("kml/" + kmlFile);
 
     layer.on("ready", function () {
         layer.eachLayer(l => registerFeature(l, kmlFile));
@@ -108,23 +98,6 @@ function registerFeature(l, kmlFile) {
         `<strong>${info.short}</strong> — ${info.type}<br><code>${name}</code>`,
         { direction: "top", sticky: true }
     );
-
-    // Corporate settings deep link — only for equipment types that
-    // have a matching AppSheet "Ajustes" table (Religador, Regulador).
-    // No settings data lives here; clicking just hands off to
-    // AppSheet, which enforces the corporate login on its own.
-    const ajusteLink = buildAjusteLink(info.symbol, name);
-    if (ajusteLink) {
-        l.bindPopup(
-            `<div class="ajuste-popup">
-                <strong>${info.short}</strong> — ${info.type}<br>
-                <code>${name}</code><br>
-                <a href="${ajusteLink}" target="_blank" rel="noopener" class="ajuste-link">
-                    📋 Ver ajustes (Corporativo)
-                </a>
-            </div>`
-        );
-    }
 
     registry.push({ id: String(name), marker: l, info, kmlFile });
 }
@@ -177,25 +150,13 @@ function highlightById(id, flyTo) {
 // Legend (auto-built from whatever equipment is actually loaded)
 // ----------------------
 
-// Switch-family types (Chave variants + Religador) render visibly
-// differently open vs closed, so the legend shows both states as
-// separate rows. Everything else collapses to a single row.
-function legendNeedsStateLabel(info) {
-    return info.symbol === "switch" || info.symbol === "recloser";
-}
-
-function legendKey(info) {
-    const stateSuffix = legendNeedsStateLabel(info) ? (info.open ? "-NA" : "-NF") : "";
-    return info.short + info.type + stateSuffix;
-}
-
 function buildLegend() {
     const legendEl = document.getElementById("legend");
     legendEl.innerHTML = "";
 
     const seen = new Map();
     registry.forEach(r => {
-        const key = legendKey(r.info);
+        const key = r.info.short + r.info.type;
         if (!seen.has(key)) seen.set(key, r.info);
     });
 
@@ -204,34 +165,20 @@ function buildLegend() {
         row.className = "legend-row";
         row.dataset.short = info.short;
 
-        const iconSvg = `<svg width="22" height="22" viewBox="0 0 24 24">${buildSymbolMarkup(info)}</svg>`;
-        const stateLabel = legendNeedsStateLabel(info) ? (info.open ? " (Aberta/NA)" : " (Fechada/NF)") : "";
-
         row.innerHTML = `
-            <span class="legend-icon-wrap" style="display:inline-flex;align-items:center;margin-right:6px;">${iconSvg}</span>
-            <span class="legend-label">${info.type}${stateLabel}</span>
+            <span class="legend-swatch legend-swatch--${info.shape}" style="--swatch-color:${info.color}"></span>
+            <span class="legend-label">${info.type}</span>
         `;
 
         row.addEventListener("click", () => toggleTypeVisibility(info, row));
         legendEl.appendChild(row);
     });
-
-    if (registry.some(r => hasAjusteData(r.info.symbol))) {
-        const note = document.createElement("div");
-        note.className = "legend-note";
-        note.style.cssText = "margin-top:8px;padding-top:8px;border-top:1px solid rgba(0,0,0,0.15);font-size:12px;color:#555;line-height:1.4;";
-        note.innerHTML = `<strong>📋</strong> no ícone = ajustes de proteção disponíveis (login corporativo)`;
-        legendEl.appendChild(note);
-    }
 }
 
 function toggleTypeVisibility(info, row) {
     const hidden = row.classList.toggle("legend-row--off");
-    const matchState = legendNeedsStateLabel(info);
     registry
-        .filter(r => r.info.short === info.short
-            && r.info.type === info.type
-            && (!matchState || r.info.open === info.open))
+        .filter(r => r.info.short === info.short && r.info.type === info.type)
         .forEach(r => {
             const el = r.marker.getElement();
             if (el) el.style.display = hidden ? "none" : "";
