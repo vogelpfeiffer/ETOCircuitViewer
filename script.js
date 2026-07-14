@@ -46,10 +46,20 @@ const satelliteLayer = L.tileLayer(
     { attribution: "Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics", maxZoom: 19 }
 );
 
+// NOTE: EOX's free tier is licensed non-commercial only (paid EOxCloudless
+// license required otherwise) — confirm with your company before making
+// this the default for field use. Included here so it can be evaluated
+// against Esri; sometimes has better coverage in areas Esri leaves blank,
+// sometimes worse resolution. maxZoom capped at 14 (native tile limit).
+const sentinelLayer = L.tileLayer(
+    "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg",
+    { attribution: "Sentinel-2 cloudless — EOX IT Services GmbH (non-commercial)", maxZoom: 14 }
+);
+
 streetLayer.addTo(map);
 
 L.control.layers(
-    { "Mapa de Ruas": streetLayer, "Satélite": satelliteLayer },
+    { "Mapa de Ruas": streetLayer, "Satélite (Esri)": satelliteLayer, "Satélite (Sentinel-2)": sentinelLayer },
     null,
     { position: "topright", collapsed: false }
 ).addTo(map);
